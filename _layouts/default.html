@@ -22,7 +22,23 @@
 
     <!-- [[! highlight.js ]] -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
-    <style>.hljs { background: none; }</style>
+    <style>
+        .hljs { background: none; }
+        .highlight { margin-bottom: 1.75em; }
+        .highlight .gutter,
+        .highlight .lineno,
+        .highlight .code pre,
+        .highlight table th,
+        .highlight table td { border: 0; background: none !important; }
+        .highlight .gutter { padding-left: 0; border-right: 1px solid #E3EDF3; }
+        .highlight table { margin: 0; }
+        .highlight pre { margin: 0; padding: 0; }
+        .highlight .hljs { margin: 0 10px; padding: 0; }
+        .highlight .hljs .lineno,
+        .highlight .hljs span { line-height: 2.3em; }
+        .highlight .lineno { text-align: center !important; padding: 5px 0; }
+        .highlight .code pre { padding: 5px 10px; }
+    </style>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 
